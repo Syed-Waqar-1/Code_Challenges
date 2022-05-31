@@ -16,7 +16,7 @@ function abbrevName(name){
     if(name[i] === ' '){
         str += name[i+1]
       }
-    } return str
+    } return str.toUpperCase()
     
   }
   
