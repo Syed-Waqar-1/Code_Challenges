@@ -8,12 +8,10 @@
 
 
 function isAllPossibilities(x){
-    let i = x.length-1;
-   for(let j = 0; j < i; j++){
-    return x.includes(j) ? true : false
-   }
+    return x.length > 0 ? x.every((a,i) => x.includes(i)) : false;
+  }
+
   
- }
  
  isAllPossibilities([0,1,2,3]) // true
  isAllPossibilities([1,2,3,4]) // false
