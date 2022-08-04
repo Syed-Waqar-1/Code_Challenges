@@ -5,7 +5,7 @@
 function well(x){
     let s = x.filter(e=> e === 'good').length
     if(s < 1) return 'Fail!'
-    else if(s >= 1) return 'Publish!'
+    else if(s === 1 || s === 2) return 'Publish!'
     else return 'I smell a series!'
   }
   console.log(well(['bad', 'bad', 'bad'])) //'Fail!'
