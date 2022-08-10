@@ -15,3 +15,4 @@ function isAllPossibilities(x){
  
  isAllPossibilities([0,1,2,3]) // true
  isAllPossibilities([1,2,3,4]) // false
+ 
